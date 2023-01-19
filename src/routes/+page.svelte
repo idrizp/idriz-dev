@@ -2,8 +2,11 @@
   import Project from "$lib/Project.svelte";
 </script>
 
+<svelte:head>
+  <title>Idriz's Personal Website</title>
+</svelte:head>
 <div
-  class="px-16 md:px-32 py-5 pt-20 min-h-screen  dark:bg-black dark:text-white tracking-tight"
+  class="px-16 md:px-32 py-5 pt-20 min-h-screen font-serif dark:bg-black dark:text-white tracking-tight"
 >
   <p class="text-3xl font-bold font-serif pt-5 text-center">
     Idriz Pelaj's Personal Website:
@@ -45,8 +48,8 @@
         all-the-info-is-on-the-page style websites.
       </p>
       <p>
-        For more of my rants and takes on modern web development, check out my
-        blog linked above.
+        For more of my rants and hot takes on modern web development, check out
+        my blog linked above.
       </p>
       <p>
         You'll also find a lot of me experimenting with different things there.
