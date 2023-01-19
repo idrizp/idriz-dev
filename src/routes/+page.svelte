@@ -134,7 +134,9 @@
           title="commando"
           technologies={["Java", "Maven w/maven modules"]}
         >
-          A fully modular command library for perfectionists.
+          <p class="text-blue-600 dark:text-blue-300">
+            A fully modular command library for perfectionists.
+          </p>
         </Project>
         <Project
           title="cleddit"
