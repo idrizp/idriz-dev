@@ -152,8 +152,10 @@
           title="greenboard"
           technologies={["React Native (client)", "Flask (server)"]}
         >
-          An app that scans recycling aztec codes and ranks you on a leaderboard
-          depending on how much you recycle.
+          <p class="text-blue-600 dark:text-blue-300">
+            An app that scans recycling aztec codes and ranks you on a
+            leaderboard depending on how much you recycle.
+          </p>
         </Project>
         <Project
           title="homefinder"
