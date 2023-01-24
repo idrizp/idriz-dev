@@ -57,9 +57,15 @@
       <div class="pt-10">
         <p class="font-bold">
           Current Challenge: <span class="font-normal"
-            >52 projects a year, projects done: 2/52</span
+            >52 projects a year, projects done: 3/52</span
           >
         </p>
+        <p class="font-bold">Projects during challenge:</p>
+        <ul class="pl-5 list-disc">
+          <li>homefinder</li>
+          <li>idriz.dev</li>
+          <li>bot-or-not</li>
+        </ul>
         <p class="font-bold">
           Learning: <span class="font-normal"
             >Reinforcement Learning w/PyTorch</span
@@ -164,12 +170,25 @@
           technologies={[
             "NextJS (client)",
             "Tailwind (client)",
-            "node.js (query processor)",
+            "Node.js (query processor)",
           ]}
         >
           <p class="text-blue-600 dark:text-blue-300">
             A website that lets you find homes for sale in your area using
             intelligent search with OpenAI(WIP).
+          </p>
+        </Project>
+        <Project
+          title="bot-or-not"
+          technologies={[
+            "SvelteKit (client)",
+            "Tailwind (client)",
+            "Node.js (game manager)",
+          ]}
+        >
+          <p class="text-blue-600 dark:text-blue-300">
+            A game that lets you guess whether the entity you're talking to is a
+            bot or a player pretending to be one.
           </p>
         </Project>
       </ol>
